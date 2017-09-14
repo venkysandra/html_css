@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+  <title> My Registration Form </title>
+  <form>
+    <p><h1>My Registration Form </h1>
+    <table>
+      <tr>
+        <td>
+          <label> First Name:<input type="text" name="name"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label> Last Name:<input type="text" name="name" autocomplete="family-name"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <label> Email<input type="email" name="email" autocomplete="email"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label> Password<input type="password" name="password" autocomplete="current-password"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label> PW Confirm<input type="password" name="password" autocomplete="current-password"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Birthday<input type="date" name="birthday" value="mm/dd/yyyy" </label>
+          <img width="20" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/calendar-512.png"></img>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Male<input type="radio" name="gender" value="male"> </label>
+          <label>Female<input type="radio" name="gender" value="female"> </label>
+          <label>Other<input type="radio" name="gender" value="other"> </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p> A short description about yourself:</p>
+          <textarea name="description" rows="10" cols="30"> </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label> favourite language <select name="language">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+          </select></label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" name="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+  </html>
